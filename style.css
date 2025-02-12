@@ -1,0 +1,86 @@
+body {
+    background-color: hsla(0, 0%, 0%, 0.67);
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.paper {
+    background-color: white;
+    width: 794px;
+    height: 100vh;
+}
+
+.content {
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.nameHeader {
+    text-align: center;
+    height: 55px;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+    font-family:Verdana, Tahoma, sans-serif;
+}
+
+.infoLinks{
+    text-align: center;
+    font-size: 18px;
+}
+
+.infoLinks p {
+    margin: 3px;
+}
+
+.container .paper .content .infoLinks svg{
+    cursor: pointer;
+}
+
+.container .paper .content .infoLinks svg:hover{
+    transform: scale(1.15);
+}
+
+.container .paper .content .infoLinks a {
+    text-decoration: none;
+}
+
+.container .paper .content .infoLinks a:hover {
+    text-decoration: underline;
+}
+
+.qualifications {
+    text-align: left;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family:Verdana, Tahoma, sans-serif;
+}
+
+.qualifications ul {
+    margin: 3px;
+}
+
+.techQualifications {
+    text-align: left;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family:Verdana, Tahoma, sans-serif;
+}
+
+hr {
+    height: 2px;
+    margin: 1px;
+    background-color: black;
+}
