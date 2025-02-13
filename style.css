@@ -6,7 +6,7 @@ body {
 .container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     height: 100vh;
     text-align: center;
 }
@@ -14,7 +14,8 @@ body {
 .paper {
     background-color: white;
     width: 794px;
-    height: 100vh;
+    min-height: 100vh;
+    box-shadow: 12px 12px 20px hsl(0, 0, 10%);
 }
 
 .content {
@@ -59,6 +60,11 @@ body {
     text-decoration: underline;
 }
 
+section h2 {
+    margin-bottom: 2px;
+    margin-top: 12px;
+}
+
 .qualifications {
     text-align: left;
     font-size: 12px;
@@ -77,6 +83,72 @@ body {
     padding-top: 5px;
     padding-bottom: 5px;
     font-family:Verdana, Tahoma, sans-serif;
+}
+
+.techQualifications p {
+    margin: 8px;
+}
+
+.education {
+    text-align: left;
+    font-size: 12px;
+    font-family:Verdana, Tahoma, sans-serif;
+}
+
+.education p {
+    margin: 0px;
+}
+
+.experience {
+    text-align: left;
+    font-size: 12px;
+    font-family:Verdana, Tahoma, sans-serif;
+}
+
+.experience p {
+    margin: 0px;
+}
+
+.experience ul {
+    margin-left: 15px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.activities {
+    text-align: left;
+    font-size: 12px;
+    font-family:Verdana, Tahoma, sans-serif;
+}
+
+.activities ul {
+    margin-left: 15px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.honorsAndAwards {
+    text-align: left;
+    font-size: 12px;
+    font-family:Verdana, Tahoma, sans-serif;
+}
+
+.honorsAndAwards ul {
+    margin-left: 15px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.languages {
+    text-align: left;
+    font-size: 12px;
+    font-family:Verdana, Tahoma, sans-serif;
+}
+
+.languages ul {
+    margin-left: 15px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 hr {
