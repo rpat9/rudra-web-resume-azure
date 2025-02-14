@@ -156,3 +156,30 @@ hr {
     margin: 1px;
     background-color: black;
 }
+
+@media print {
+    /* Adds a page break after honors and awards section */
+    .honorsAndAwards {
+        page-break-after: always;
+    }
+
+    .container {
+        height: auto;
+    }
+
+    /* Avoid page break for these sections */
+    .nameHeader, .infoLinks, .qualifications, .techQualifications, .education, .experience, .activities, .honorsAndAwards, .languages {
+        page-break-inside: avoid;
+    }
+
+    /* Makes sure the line appears in print version */
+    hr {
+        border-top: solid 2px #000 !important;
+        background-color: black !important;
+    }
+
+    /* Makes sure there is no page break after these sections creating a new page*/
+    .honorsAndAwards, .languages {
+        page-break-after: avoid;
+    }
+}
